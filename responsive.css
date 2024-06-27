@@ -1,0 +1,9 @@
+@media only screen and (max-width: 400px){
+    .subscribe input[type=email] {
+    width: 100%;
+    }
+    .subscribe input[type=submit] {
+    width: 50%;
+    
+    }
+}

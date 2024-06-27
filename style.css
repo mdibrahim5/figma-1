@@ -1,0 +1,447 @@
+/****************************font*****************/
+@font-face {
+	font-family: "NeueMachina-Regular";
+	src: url('font/NeueMachina-Regular.woff') format('woff');
+}
+@font-face {
+	font-family: "NeueMachina-Ultrabold";
+	src: url('font/NeueMachina-Ultrabold.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/************************Header-area*************************/
+.header-area {
+    background: #ffffff;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.nav-item {
+    margin: 0 20px ;
+}
+.nav-item a {
+    color: #000000;
+}
+.login {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 20px;
+}
+.login:hover {
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    color: #000000;
+}
+.button-area  a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+}
+.header-text h1 {
+    color: #000000;
+    font-size: 43px;
+    font-family: "NeueMachina-Ultrabold";
+}
+.header-text p {
+    font-family: "NeueMachina-Regular";
+    color: #000000;
+    font-size: 16px;
+    
+
+}
+.subscribe input[type=email] {
+    width: 50%;
+    padding: 5px 0;
+    text-align: center;
+    font-family: "NeueMachina-Regular";
+
+}
+.subscribe input[type=submit] {
+    width: 40%;
+    padding: 6px 0;
+    text-align: center;
+    background: #000000;
+    color: #FFFFFF;
+    font-family: "NeueMachina-Regular";
+}
+.subscribe input[type=submit]:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+.header-text ul {
+    list-style: none;
+    padding: 0;
+    
+}
+.header-text ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.header-img img{
+    width: 80%;
+}
+/*********************about-area******************/
+.about-area {
+    overflow: hidden;
+}
+.about-area img {
+    width: 100%;
+}
+.about-text a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    color: #000000;
+    font-family: "NeueMachina-Regular";
+    transition: all 0.2s ease-in-out;
+}
+
+.about-text a:hover {
+  transition: all 0.2s ease-in-out;
+  font-weight: 900;
+  text-shadow: 0 0 8px var(--light-color);
+}
+.about-text h2 {
+    font-family: "NeueMachina-Regular";
+}
+.about-text p {
+    font-family: "NeueMachina-Regular";
+}
+.list-area {
+    list-style-type: square;
+    font-size: 18px;
+    
+}
+.list-area li {
+    margin: 10px 0;
+}
+/********************************collaboration*****************************/
+.collaboration {
+    overflow: hidden;
+    
+}
+.imager img {
+    width: 100%;
+}
+.collaboration-text a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    color: #000000;
+   
+    transition: all 0.2s ease-in-out;
+    font-family: "NeueMachina-Regular";
+}
+
+.collaboration-text a:hover {
+  transition: all 0.2s ease-in-out;
+  font-weight: 900;
+  text-shadow: 0 0 8px var(--light-color);
+}
+.collaboration-text h2 {
+    font-family: "NeueMachina-Regular";
+}
+.collaboration-text ul {
+    list-style: none;
+    font-size: 18px;
+} 
+.collaboration-text img {
+    width: 100%;
+}
+.collaboration-text  span {
+    font-family: "NeueMachina-Ultrabold";
+}
+.collaboration-text p {
+    font-family: "NeueMachina-Regular";
+    font-size: 16px;
+}
+/*************************pricing-area************/
+.pricing-area {
+    overflow: hidden;
+}
+
+.pricing  a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    color: #000000;
+    font-family: "NeueMachina-Regular";
+    transition: all 0.2s ease-in-out;
+    font-family: "NeueMachina-Regular";
+}
+
+.pricing  a:hover {
+  transition: all 0.2s ease-in-out;
+  font-weight: 900;
+  text-shadow: 0 0 8px var(--light-color);
+}
+.pricing-text  h2 {
+    font-family: "NeueMachina-Regular";
+    font-size: 36px;
+}
+.pricing-text  p {
+    font-family: "NeueMachina-Regular";
+    font-size: 18px;
+}
+.pricing-text  img {
+    width: 100%;
+}
+.pricing-card {
+  --col: #e4e4e7;
+  position: relative;
+ 
+  padding: 32px;
+  padding-bottom: 96px;
+  border-radius: 4px;
+  border: 1px solid #262626;
+  background-color: #26262620;
+  box-shadow: 0 0 32px transparent;
+  
+}
+
+.pricing-card.basic {
+    background: #FFFFFF;
+    
+}
+
+.pricing-card.standard {
+    background: #FFFFFF;
+    
+}
+
+.pricing-card.premium {
+    background: #FFFFFF;
+  
+}
+
+.pricing-card:hover {
+  border-color: var(--col);
+  
+  box-shadow: 0 0 32px #171717;
+  transform: translateY(-16px) scale(1.02);
+  transition: all 0.5s ease;
+}
+
+.pricing-card > *:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.pricing-card .heading h2 {
+  padding-bottom: 12px;
+  color: #000000;
+  font-size: 36px;
+  font-weight: normal;
+  font-family: "NeueMachina-Ultrabold";
+}
+
+
+.pricing-card .heading p {
+  color: #000000;
+  font-size: 14px;
+  font-weight: lighter;
+  
+}
+
+
+.pricing-card .price {
+  position: relative;
+  color: var(--col);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.pricing-card .features li {
+  padding-bottom: 16px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: left;
+  list-style: square;
+  font-family: "NeueMachina-Regular";
+}
+
+.pricing-card .cta-btn {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  color: #FFFFFF;
+  background: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pricing-card .cta-btn:active{
+  background-color: transparent;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+.pricing-card .cta-btn:hover {
+   color: #000000;
+    background: #ffffff;
+    
+}
+.heading span {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+/**************************question-area****************************/
+.question-area {
+    overflow: hidden;
+}
+.question-text  a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    color: #000000;
+    font-family: "NeueMachina-Regular";
+    transition: all 0.2s ease-in-out;
+}
+
+.question-text  a:hover {
+  transition: all 0.2s ease-in-out;
+  font-weight: 900;
+  text-shadow: 0 0 8px var(--light-color);
+}
+.question-text  h2 {
+    font-family: "NeueMachina-Regular";
+    font-size: 36px;
+    margin-top: 50px;
+}
+.question-text  p {
+    font-family: "NeueMachina-Regular";
+    font-size: 18px;
+    margin-top: 30px;
+}
+.faq_container {
+    border-bottom: 2px solid #ddd; 
+}
+.faq_question {
+  
+  padding: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.answercont {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.answer {
+  padding: 0 10px 20px;
+  line-height: 1.5rem;
+}
+.fqa_headline_container h2 span { 
+    font-weight: 700; 
+}
+.faq_question-text h3 {
+    font-size: 22px; 
+}
+
+.icon.active {
+  background: transparent;
+  border: 2px solid #fff;
+}
+.icon:hover {
+    cursor: pointer; 
+}
+.icon-shape {
+    position: relative; width: 50px; height: 50px; 
+}
+.icon .icon-shape::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 4px;
+  background: #fff;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.icon .icon-shape::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 30px;
+  background: #fff;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.icon .icon-shape.active::before {
+  transform: translate(-50%, -50%) rotate(180deg);
+  transition: all 0.5s ease;
+}
+.icon .icon-shape.active::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+  transition: all 0.5s ease;
+}
+/********************contact-area*****************/
+.contact-area {
+    overflow:hidden;
+    background: #000000;
+    color: #FFFFFF;
+}
+.contact-text img {
+    width: 10%;
+}
+.contact-text input[type=email] {
+    width: 40%;
+    padding: 5px 0px;
+    text-align: center;
+    font-family: "NeueMachina-Regular";
+
+}
+.contact-text input[type=submit] {
+    width: 25%;
+    padding: 6px 0;
+    text-align: center;
+    background: #000000;
+    color: #FFFFFF;
+    font-family: "NeueMachina-Regular";
+}
+.contact-text input[type=submit]:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+.contact-text h2 {
+    padding: 10px 0;
+}
+.about li {
+    list-style: none;
+    margin: 10px 0;
+    font-family: "NeueMachina-Regular";
+}
+.lead li {
+    list-style: none;
+    margin: 10px 0;
+    font-family: "NeueMachina-Regular";
+}
+/******************footer-area**************/
+.footer-area {
+    overflow: hidden;
+    background: #000000;
+    color: #FFFFFF;
+}
+.footer-area ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.footer-area ul li i:hover {
+    transform: scale(2);
+}
